@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Site</title>
+  <meta charset="UTF-8" />
+  <title>My Static Site</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      color: #ffffff;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 40px 50px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(8px);
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Hello</h1>
-  <script src="index.js"></script>
+  <div class="container">
+    <h1>Hello from GitHub Actions CI!</h1>
+    <p>This is a static HTML page deployed with GitHub Pages.</p>
+  </div>
 </body>
 </html>
