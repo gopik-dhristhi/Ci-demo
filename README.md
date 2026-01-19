@@ -23,4 +23,4 @@ Open `index.html` directly in the browser or serve it from any static file host 
 npm install html-demo-2
 
 ## author
-Gopik-dhristhi
+  Gopik-dhristhi
